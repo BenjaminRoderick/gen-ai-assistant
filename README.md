@@ -72,7 +72,7 @@ Due to the nature of the pipeline I decided to use and my limited compute resour
 In a production environment, having access to more ressources would allow me to use larger and more complex sentiment analysis models in my pipeline. The best way to take advantage of this would be to condense all of the steps of my current pipeline into a single input for the LLM. The advantages of this approach are the improved accuracy of the better model and the fact that there is no room for an error coming from a cheap model to derail the rest of the pipeline.
 
 #### Sentiment predictions
-Here is the output of my code.
+[Here is the output of my code](https://github.com/BenjaminRoderick/gen-ai-assistant/blob/main/data/sentiment_predictions.json).
 
 ### Semantic Search
 #### Matching Strategy
@@ -87,8 +87,8 @@ The final important decision I made regarding my semantic search pipeline is to 
 pip install -r requirements.txt
 ```
 
-For sentiment analysis: `notebooks/sentiment_analysis.ipynb`
+For sentiment analysis: [notebooks/sentiment_analysis.ipynb](https://github.com/BenjaminRoderick/gen-ai-assistant/blob/main/notebooks/sentiment_analysis.ipynb)
 
-For semantic search: `notebooks/semantic_search.ipynb`
+For semantic search: [notebooks/semantic_search.ipynb](https://github.com/BenjaminRoderick/gen-ai-assistant/blob/main/notebooks/semantic_search.ipynb)
 
 Both notebooks are designed such that they can be run sequentially to prepare the data and run the corresponding pipeline.
